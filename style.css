@@ -1,0 +1,140 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://pasjabar.com/wp-content/uploads/2025/01/assortment-cinema-elements-red-background-with-copy-space-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  background-color: rgba(28, 24, 24, 0.7);
+  padding: 1.5rem;
+  width: 30rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.judul {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.judul > span {
+  font-size: 1.5rem;
+}
+
+.wrapper-from {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.from {
+  display: flex;
+  flex-direction: column;
+}
+
+.ikon {
+  position: absolute;
+  width: 29rem;
+  transform: translateY(215%);
+  display: flex;
+  justify-content: end;
+}
+
+.from > input {
+  border-radius: 1.5rem;
+  padding: 0.7rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  outline: 2px solid rgba(231, 227, 252, 0.23);
+}
+
+.wrapper-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.daftar {
+  font-weight: 200;
+}
+
+.daftar > p > a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lupa-sandi > a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button-masuk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.button1 {
+  width: 100%;
+}
+
+.button1 > button {
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: rgb(66, 60, 60);
+  border: none;
+  outline: 2px solid rgba(231, 227, 252, 0.23);
+}
+
+.button1 > .google {
+  background-color: transparent;
+}
+
+.google > i {
+  margin-right: 10px;
+}
+
+.contoh {
+  background-color: blue;
+  height: 100vh;
+}
+
+.contoh > h1 {
+  background-color: green;
+}
+
+.contoh > h2 {
+  background-color: yellow;
+}
+
